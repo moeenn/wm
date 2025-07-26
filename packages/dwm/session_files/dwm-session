@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# basic xorg session settings
+xrdb ~/.Xresources &
+
+# set typing repeat rate
+xset r rate 300 50 &
+
+# enable compositor
+compton &
+#xrandr --output DP1 --rotate left --left-of HDMI3 &
+#xset b off &
+#pulseaudio -D &
+
+# wallpaper
+xsetroot -solid "#131212" &		 	
+# $HOME/.fehbg &
+
+# set warn screen colors
+redshift -O 4800 &
+
+# window manager and status bar
+dwmstatus &
+exec dwm
