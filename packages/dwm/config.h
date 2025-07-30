@@ -66,7 +66,7 @@ static const Layout layouts[] = {
     }
 
 /* commands */
-static const char *dmenucmd[] = {"dmenu_run", NULL};
+static const char *dmenucmd[] = {"rofi", "-show", "run", NULL};
 static const char *termcmd[] = {"alacritty", NULL};
 static const char *lockcmd[] = {"i3lock", "-c", "000000", "-d", NULL};
 static const char *filecmd[] = {"thunar", NULL};

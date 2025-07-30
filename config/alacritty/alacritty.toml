@@ -9,8 +9,8 @@ decorations = "Full"
 decorations_theme_variant = "Light" # "Dark"
 
 [font]
-normal.family = "JetBrains Mono"
-size = 9.0
+normal.family = "Fira Mono"
+size = 8.0
 offset.x = 0
 offset.y = 5
 glyph_offset.y = 3
@@ -19,27 +19,29 @@ glyph_offset.y = 3
 style = { shape = "Underline" }
 
 [colors.primary]
-background = '#fdf6e3'
-foreground = '#5c6a72'
+background = '#0E1415'
+foreground = '#CECECE'
 
-# Normal colors
+[colors.cursor]
+text = '#0E1415'
+cursor = '#CECECE'
+
 [colors.normal]
-black   = '#5c6a72'
-red     = '#f85552'
-green   = '#8da101'
-yellow  = '#dfa000'
-blue    = '#3a94c5'
-magenta = '#df69ba'
-cyan    = '#35a77c'
-white   = '#e0dcc7'
+black = '#0E1415'
+red = '#e25d56'
+green = '#73ca50'
+yellow = '#e9bf57'
+blue = '#4a88e4'
+magenta = '#915caf'
+cyan = '#23acdd'
+white = '#f0f0f0'
 
-# Bright Colors
 [colors.bright]
-black   = '#5c6a72'
-red     = '#f85552'
-green   = '#8da101'
-yellow  = '#dfa000'
-blue    = '#3a94c5'
-magenta = '#df69ba'
-cyan    = '#35a77c'
-white   = '#e0dcc7'
+black = '#777777'
+red = '#f36868'
+green = '#88db3f'
+yellow = '#f0bf7a'
+blue = '#6f8fdb'
+magenta = '#e987e9'
+cyan = '#4ac9e2'
+white = '#FFFFFF'
