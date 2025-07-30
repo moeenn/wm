@@ -6,10 +6,10 @@ opacity = 1.0
 padding.x = 10
 padding.y = 10
 decorations = "Full"
-decorations_theme_variant = "Light" # "Dark"
+decorations_theme_variant = "Dark" # "Light"
 
 [font]
-normal.family = "Fira Mono"
+normal.family = "Fira Code Retina"
 size = 8.0
 offset.x = 0
 offset.y = 5
